@@ -1,0 +1,10 @@
+{
+    "request_url" : "http://192.168.2.59:5000/",
+    "input" : "input",
+    "output" : "output",
+    "completed" : "outpu/images",
+    "labels" : "output/labels",
+    "classes" : "output/classes.txt",
+    "json" : "{path}/dataset/confidence"
+    
+}

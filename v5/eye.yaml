@@ -1,0 +1,99 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here (7 MB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ..\dataset  # dataset root dir
+train: images  # train images (relative to 'path') 128 images
+val: images  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+nc: 69  # number of classes
+names: ['dog',
+'person',
+'cat',
+'tv',
+'car',
+'meatballs',
+'marinara sauce',
+'tomato soup',
+'chicken noodle soup',
+'french onion soup',
+'chicken breast',
+'ribs',
+'pulled pork',
+'hamburger',
+'cavity',
+'traffic light',
+'truck',
+'potted plant',
+'bus',
+'kite',
+'bicycle',
+'boat',
+'bench',
+'umbrella',
+'handbag',
+'skateboard',
+'suitcase',
+'backpack',
+'clock',
+'parking meter',
+'bird',
+'stop sign',
+'dining table',
+'airplane',
+'motorcycle',
+'microwave',
+'cell phone',
+'book',
+'chair',
+'refrigerator',
+'elephant',
+'sports ball',
+'fire hydrant',
+'knife',
+'cup',
+'surfboard',
+'bear',
+'baseball bat',
+'toilet',
+'bowl',
+'orange',
+'sink',
+'cow',
+'train',
+'tennis racket',
+'carrot',
+'vase',
+'oven',
+'remote',
+'keyboard',
+'snowboard',
+'skis',
+'bottle',
+'frisbee',
+'giraffe',
+'banana',
+'tie',
+'horse',
+'laptop']
+
+# Download script/URL (optional)
+# download: https://ultralytics.com/assets/coco128.zip
+
+
+
+
+
+
+
+
+
+
